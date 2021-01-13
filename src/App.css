@@ -7,12 +7,26 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background:  url('compound-interest-calculator.jpg') no-repeat center center fixed; 
+  background-position: center;
 }
-
+.label1{
+  text-align: right;
+}
+.label{
+  text-align: left;
+}
+.flex{
+  display:flex;
+  justify-content: space-between;
+}
+.MuiOutlinedInput-input {
+  padding: 8.5px 14px !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
